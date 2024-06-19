@@ -17,7 +17,7 @@
         Prototype <strong>Situasional Judgement Digital Literacy Scale </strong>
       </p>
         <p class="subtitle">
-        Kembali ke Menu
+        Kembali ke Menu 
         <a href="../admin.php">Admin</a>
         </p>
     </div>
