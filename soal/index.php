@@ -52,6 +52,7 @@
         <th>Jawaban</th>
     </tr>
     <?php
+    
     if ($result->num_rows > 0) {
         // Output data setiap baris
         while($row = $result->fetch_assoc()) {

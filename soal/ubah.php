@@ -21,7 +21,6 @@ if (isset($_POST['update'])) {
 
     // Update data
     $sql = "UPDATE soal SET soal='$soal', label='$label', tipe='$tipe' WHERE id_soal=$id_soal";
-
     if ($conn->query($sql) === TRUE) {
         header("Location: index.php");
     } else {
