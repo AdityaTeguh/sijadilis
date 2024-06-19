@@ -26,7 +26,7 @@
   <?php
   include '../config.php';
   // Query untuk mengambil data dari tabel
-  $sql = "SELECT id_soal, soal, label, tipe FROM soal";  //  nama tabel dan kolom
+  $sql = "SELECT * FROM soal INNER JOIN label ON soal.id_label=soallabel.id_label";  //  nama tabel dan kolom
   $result = $conn->query($sql);
   ?>
   <section class="section">
@@ -49,7 +49,6 @@
         <th>Label</th>
         <th>Tipe Soal</th>
         <th>Aksi</th>
-        <th>Jawaban</th>
     </tr>
     <?php
     
